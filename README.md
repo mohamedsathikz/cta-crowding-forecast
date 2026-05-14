@@ -24,18 +24,9 @@ per station to predict daily crowd levels based on date features.
 - Features: station_id, stationname, date, daytype, rides
 
 ## Project Structure
-CTA_Crowding_Forecast/
-├── Crowding_Forecast_Model.ipynb            # Main notebook
-├── cta_analysis_queries.sql                 # SQL queries
-├── Sample Dataset for Model.csv             # Raw dataset
-├── outputs/
-│   ├── final_forecast_results.csv           # Historical forecast
-│   ├── forecast_report_YYYY_M_D.csv         # Per-date prediction
-│   ├── top_10_stations.csv                  # SQL query output
-│   └── avg_rides_by_daytype.csv             # SQL query output
-├── CTA_Forecast_Final_Dashboard.pbix        # Power BI dashboard
-├── README.md
-└── LICENSE
+
+<img width="451" height="241" alt="image" src="https://github.com/user-attachments/assets/ded91051-a9f5-4ceb-81b2-1d0db56682ef" />
+
 
 ## Pipeline Flow
 PostgreSQL Database
