@@ -29,15 +29,9 @@ per station to predict daily crowd levels based on date features.
 
 
 ## Pipeline Flow
-PostgreSQL Database
-↓
-SQL Queries → top_10_stations + avg_rides_by_daytype
-↓
-Python Notebook → Data preprocessing → Model training (147 models)
-↓
-Date input → Estimated passengers per station → forecast_report
-↓
-Power BI Dashboard → Refresh → Updated visuals
+
+<img width="453" height="180" alt="image" src="https://github.com/user-attachments/assets/c13884d3-ed0b-4693-813c-9f10780b67c9" />
+
 
 ## Key Features
 - Predicts estimated passengers for **every station** on any entered date
